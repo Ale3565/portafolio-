@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Alexis Levano | Frontend Web Developer</title>
+    <meta name="decription" content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product">
+    <meta name="author" content="Alexis Levano">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet">
+    <meta
+      property="og:title"
+      content="Alexis Levano | AlsCodes | Frontend Web Developer"
+    />
+    <!-- CSS only -->
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./resources/images/photo.png"
+              alt="Alexis Levano Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Alexis Levano</span>
+        </div>
+        
+          <center>
+            <div class="switch">
+               <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+               <label for="language-toggle"></label>
+               <span class="on" id="en">EN</span>
+               <span class="off" id="es">ES</span>
+            </div>
+
+        </center>
+        
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="index.html" class="header__link" > Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="index.html#about" class="header__link" id="about1">About </a>
+            </li>
+            <li class="header__link-wrapper" >
+              <a href="index.html#projects" class="header__link projects" id="projects1"> Projects </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="index.html#contact" class="header__link contact" id="contact1"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img        
+              src="./resources/images/menu.png"
+              alt="hamburger menu"
+              class="header__main-ham-menu nav-toggle"
+            />
+            <img
+              src="./resources/images/close_icon_black2.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="index.html#about" id="about2"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="index.html#projects" id="projects2"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="index.html#contact" id="contact2"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary" id="hey1">Hey, I'm Alexis Levano</h1>
+        <div class="home-hero__info">
+          <p id="a1" class="text-primary">
+            A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="index.html#projects" class="btn btn--bg" id="projects3">Projects</a>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a
+            href="https://www.linkedin.com/in/alexis-javier-levano-saire-470543230/"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="./resources/images/linkedin-dark.png"
+              alt="Alexis Levano Linkedin Profile"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://twitter.com/AlexisJavierLS"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="./resources/images/twitter-dark.png"
+              alt="Alexis Levano Twitter Profile"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.youtube.com"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="./resources/images/youtube-dark.png"
+              alt="Alexis Levano Youtube Channel"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/Ale3565"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank">
+            <img
+              src="./resources/images/github-dark.png" alt="Alexis Levano Github Profile" class="home-hero__social-icon"/>
+          </a>
+        </div>
+
+        <div class="home-hero__social">
+          <a href="https://dev.to/ale3565" class="home-hero__social-icon-link"rel="noreferrer" target="_blank">
+            <img src="./resources/images/book-dark.png" alt="RammCodes DEV.to Blog Profile" class="home-hero__social-icon"/>
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+
+
+
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main" id="about3">About</span>
+          <span class="heading-sec__sub" id="here1">
+            Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title" id="get1">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para" id="im1">
+                I'm a <strong>Frontend Web Developer</strong> building the
+                Front-end of Websites and Web Applications that leads to the
+                success of the overall product. Check out some of my work in the
+                <strong>Projects</strong> section.
+              </p>
+              <p class="about__content-details-para" id="ialso1">
+                I also like sharing content related to the stuff that I have
+                learned over the years in <strong>Web Development</strong> so it
+                can help other people of the Dev Community. Feel free to Connect
+                or Follow me on my
+                <a
+                  rel="noreferrer"
+                  href="https://pe.linkedin.com/in/alexis-javier-levano-saire-470543230"
+                  target="_blank"
+                  >Linkedin</a
+                >
+                where I post useful content related to Web Development and
+                Programming
+              </p>
+              <p class="about__content-details-para" id="imopen1">
+                I'm open to <strong>Job</strong> opportunities where I can
+                contribute, learn and grow. If you have a good opportunity that
+                matches my skills and experience then don't hesitate to
+                <strong>contact</strong> me.
+              </p>
+            </div>
+            <a target="_blank" href="./resources/data/alexislevanocv-en.pdf" download="AlexisLevanoCV" class="btn btn--med btn--theme dynamicBgClr" id="download1"
+              >Download CV</a>
+          </div>
+
+
+
+
+
+          <div class="about__content-skills">
+            <h3 class="about__content-title" id="myskillst1">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Github</div>
+              <div class="skills__skill">Responsive Design</div>
+              <div class="skills__skill">SEO</div>
+              <div class="skills__skill">Terminal</div>
+              <div class="skills__skill">Express Basics</div>
+              <div class="skills__skill">SQL Basics</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main" id="projectsa">Projects</span>
+          <span class="heading-sec__sub" id="here2">
+           Here you will find some of the personal projects that I can create. You can view each project by entering the View Project button.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./resources/images/cubes.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title" id="cubes">Cubes</h3>
+              <p class="projects__row-content-desc" id="cubes1">
+                Cubes is a game that I created where people can join together to destroy as many cubes as they can and thus set their own record. Tools Used: HTML, CSS, JavaScript,Github, Netlify.
+              </p>
+              <a class='btn btn--med btn--theme dynamicBgClr' href='https://celebrated-youtiao-b56228.netlify.app/' target='_blank' id="project1">Project</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./resources/images/rickandmorty.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Rick and Morty</h3>
+              <p class="projects__row-content-desc" id="rym1">
+                Rick and Morty is an application that shows all the details of the characters of the television series. Tools Used: HTML, CSS, JavaScript, React, Redux, SASS, Github, Netlify. 
+              </p>
+              <a class='btn btn--med btn--theme dynamicBgClr' href='https://golden-trifle-507418.netlify.app' target='_blank' id="project2">Project</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./resources/images/ecommerce.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Beach Resort Hotel</h3>
+              <p class="projects__row-content-desc" id="beach1">
+                Beach resort Hotel is an application that shows the various options when renting a hotel room.It was a great experience for me to build the entire frontend. Tools Used: HTML, CSS, JavaScript, React, Redux, SASS, Github, Netlify.
+              </p>
+              <a class='btn btn--med btn--theme dynamicBgClr' href='https://amazing-dragon-013efc.netlify.app/' target='_blank' id="project3">Project</a
+              >
+            </div>
+          </div>
+       </section>
+
+       
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt" id="contact3">CONTACT</span>
+          <span class="heading-sec__sub heading-sec__sub--lt" id="feel1">
+           Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form  id = "form" action='https://formsubmit.co/9047861a9ab134e6e7561c334c60434c' class='contact__form' method='POST'><input type='hidden' name='form-name' value='form 1' />
+            <div class="contact__form-field">
+              <label  class="contact__form-label" for="name" id="name1">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label  class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="email"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label  class="contact__form-label" for="message" id="mensaje1">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button id = "submit" type="submit" class="btn btn--theme contact__btn" id="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/alexis-javier-levano-saire-470543230/"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./resources/images/linkedin-ico.png"
+                  alt="AlexisLevano Linkedin Profile"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Ale3565"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./resources/images/github-ico.png"
+                  alt="AlexisLevano Github Profile"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/AlexisJavierLS"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./resources/images/twitter-ico.png"
+                  alt="AlexisLevano Twitter Profile"
+                />
+              </a>
+
+              <a target="_blank" rel="noreferrer" href="https://dev.to/ale3565">
+                <img class="main-footer__icon"
+                  src="./resources/images/blog-ico.png"
+                  alt="AlexisLevano DEV.to Blog Profile"/>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.youtube.com">
+                <img class="main-footer__icon main-footer__icon--mr-none"
+                  src="./resources/images/yt-ico.png" alt="AlexisLevano Youtube Channel"/>
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h2 class="heading heading-sm text-lt">Alexis Levano</h2>
+            <p class="main-footer__short-desc" id="afront1">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright 2022. Made by
+          <a rel="noreferrer" target="_blank" href="index.html"
+            >Alexis Levano</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script defer src="./scripts/index.js" type="text/javascript"></script>
+  </body>
+</html>
