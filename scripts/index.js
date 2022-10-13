@@ -129,8 +129,8 @@ function change(lang1, lang2) {
     myskillst1.innerHTML = "Mis Skills";
     projectsa.innerHTML = "Proyectos";
     here2.innerHTML = "Aquí encontrarás algunos de los proyectos personales que he creado."; 
-    cubes.innerHTML = "Cubos";
-    cubes1.innerHTML = `Cubos es un juego que yo hice en donde las personas pueden destruir muchos cubos y asi establecer su propio record. Tecnologias Usadas: HTML, CSS, JavaScript,Github, Netlify.`;
+    cubes.innerHTML = "Pokemon API";
+    cubes1.innerHTML = `En este proyecto se uso la pokemon API para realizar el despliegue de toda la informacion quedando un maravilloso diseño para el usuario final. Tecnologias Usadas: HTML, CSS, JavaScript, React, Redux, Github, Netlify.`;
     project1.innerHTML = "Proyecto";
     rym1.innerHTML = `Rick and Morty es una aplicacion donde se pueden ver todos los detalles de la serie de television. Tecnologias Usadas: HTML, CSS, JavaScript, React, Redux, SASS, Github, Netlify.`;
     project2.innerHTML = "Proyecto";
