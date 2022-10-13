@@ -88,8 +88,8 @@ function change(lang1, lang2) {
     myskillst1.innerHTML = "My Skills";
     projectsa.innerHTML = "Projects";
     here2.innerHTML = "Here you will find some of the personal projects that I can create. You can view each project by entering the View Project button."; 
-    cubes.innerHTML = "Cubes";
-    cubes1.innerHTML = `Cubes is a game that I created where people can join together to destroy as many cubes as they can and thus set their own record. Tools Used: HTML, CSS, JavaScript,Github, Netlify.`
+    cubes.innerHTML = "Pokemon API";
+    cubes1.innerHTML = `In this project, the pokemon API was used to display all the information, leaving a wonderful design for the end user. Tools Used: HTML, CSS, JavaScript, React, Redux, Github, Netlify.`
     project1.innerHTML = "Project";
     rym1.innerHTML = `Rick and Morty is an application that shows all the details of the characters of the television series. Tools Used: HTML, CSS, JavaScript, React, Redux, SASS, Github, Netlify.`
     project2.innerHTML = "Project"
